@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>homework2</title>
+    <style>
+        body { /*body 태그 초기화*/
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font-family: 맑은고딕, Malgun Gothic, dotum, gulim, sans-serif;
+        }
+        .outlineDiv {
+            width: 300px;
+            background-color: #1B1D21;
+        }
+        header {
+            display: flex;
+            justify-content: space-around;
+            font-size: 10px;
+        }
+        header h1 {
+            color: #fff;
+        }
+        header a {
+            height: 14px;
+            background-color: #393C42;
+            padding: 5px 10px;
+            border-radius: 15px;
+            color: #929295;
+            text-decoration: none;
+            font-size: 10px;
+            margin: 15px 0 15px 0;
+        }
+        .sectionDiv {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        section {
+            display: flex;
+            flex-direction: row;
+            background-color: #2C3035;
+            margin: 5px 15px;
+            border-radius: 10px;
+        }
+        section img{
+            margin: 10px 10px;
+            width: 45px;
+            height: 45px;
+            border-radius: 5px;
+        }
+        .sectionText {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .sectionText h1 {
+            color: #E5E6E7;
+            font-size: 10px;
+            line-height: 0;
+        }
+        .company {
+            font-size: 8px;
+            color: #E5E6E7;
+            line-height: 0;
+        }
+        .description {
+            font-size: 8px;
+            color: #89898B;
+            line-height: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="outlineDiv">
+        <header>
+            <h1>💼 새로운 채용 공고</h1>
+            <a href="#"> 3 </a>
+        </header>
+        <div class="sectionDiv">
+            <section>
+                <img src="./img/images.png" alt="" class="icon">
+                <div class="sectionText">
+                    <h1>UI/UX 디자이너</h1>
+                    <p class="company">서울스토어</p>
+                    <p class="description">고객의 몰입을 만들고자 합니다!</p>
+                </div>
+            </section>
+            <section>
+                <img src="./img/images.png" alt="" class="icon">
+                <div class="sectionText">
+                    <h1>Product/UI Designer</h1>
+                    <p class="company">비바리퍼블리카</p>
+                    <p class="description">TOSS 포트폴리오 없는 디자이너 채용</p>
+                </div>
+            </section>
+            <section>
+                <img src="./img/images.png" alt="" class="icon">
+                <div class="sectionText">
+                    <h1>Product Designer</h1>
+                    <p class="company">그랩(프로그래머리/교육사업팀)</p>
+                    <p class="description">전사 리모트 근무 (영원히 ~ )</p>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
