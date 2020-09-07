@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * { /*모든 태그 초기화*/
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font-family: 맑은고딕, Malgun Gothic, dotum, gulim, sans-serif;
+        }
+        header {
+            background-color: #393C42;
+            height: 100px;
+        }
+        nav {
+            background-color: #1B1D21;
+            height: 50px;
+        }
+        div {
+            display: flex;
+            flex-direction: row;
+        }
+        aside {
+            background-color: cadetblue;
+            width: 20%;
+            height: 400px;
+        }
+        main{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            background-color: cornflowerblue;
+            height: 400px;
+        }
+        section {
+            height: 400px;
+            background-color: gold;
+        }
+        footer {
+            background-color: cyan;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <nav>nav</nav>
+    <div>
+        <aside>
+            left aside
+        </aside>
+        <main>
+            <section>
+                section1
+            </section>
+            <section>
+                section2
+            </section>
+        </main>
+    </div>
+
+    <footer>Footer</footer>
+</body>
+</html>
