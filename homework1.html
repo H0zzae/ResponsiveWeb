@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>homework1</title>
+    <style>
+        body { /*body 태그 초기화*/
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font-family: 맑은고딕, Malgun Gothic, dotum, gulim, sans-serif;
+        }
+        .outlineDiv {
+            position: relative;
+            padding: 15px;
+            width: 270px;
+            height: 310px;
+            background-color: #1B1D21;
+        }
+        .card {
+            width: 270px;
+            height: 310px;
+            display: flex;
+            flex-flow: column ;
+            border-radius: 10px;
+            background-color: #2C3035;
+            /*margin: 0 15px;*/
+        }
+        .mainImage {
+            height: 145px;
+            width: 100%;
+        }
+        .textDiv {
+            width: auto;
+            height: auto;
+            margin: 15px 15px 0 15px;
+        }
+        section h1 {
+            font-size: 15px;
+            line-height: 0;
+            color: #B6B7B8;
+        }
+        section p {
+            font-size: 12px;
+            color: #89898B;
+        }
+        article {
+            position: relative;
+            border-top: 1px solid #777;
+            display: flex;
+            flex-flow: row;
+            width: 100%;
+        }
+        .icon {
+            margin: 15px;
+            width: 20px;
+            height: 20px;
+            border-radius: 2px;
+        }
+        article p {
+            display: flex;
+            align-items: center;
+        }
+        .button {
+            display: flex;
+            position: absolute;
+            right: 0;
+            justify-content: flex-end;
+            align-content: flex-end;
+        }
+        .button img {
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outlineDiv">
+        <section>
+            <div class="card">
+                <img src="img/IMG_1384.JPG" alt="mainImage" class="mainImage">
+                <div class="textDiv">
+                    <h1>핀과 제이크의 어드벤쳐타임</h1>
+                    <p>Daddy, why did you eat my fries? I bought them, and they were mine.</p>
+                    <p>AdventureTime</p>
+                </div>
+                <article>
+                    <img src="img/images.png" alt="Icon" class="icon">
+                    <p>제이크</p>
+                    <div class="button">
+                        <img src="img/bookmark_24px.svg" alt="">
+                        <img src="img/drag_indicator_24px.svg" alt="">
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
